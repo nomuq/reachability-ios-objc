@@ -13,6 +13,7 @@
 		758930861E95E2950053739E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 758930841E95E2950053739E /* Main.storyboard */; };
 		758930881E95E2950053739E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 758930871E95E2950053739E /* Assets.xcassets */; };
 		7589308B1E95E2950053739E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 758930891E95E2950053739E /* LaunchScreen.storyboard */; };
+		758930941E95E2F20053739E /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 758930931E95E2F20053739E /* Reachability.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		758930871E95E2950053739E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7589308A1E95E2950053739E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7589308C1E95E2950053739E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		758930921E95E2F20053739E /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		758930931E95E2F20053739E /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		7589307A1E95E2950053739E /* Internet Connection Check */ = {
 			isa = PBXGroup;
 			children = (
+				758930921E95E2F20053739E /* Reachability.h */,
+				758930931E95E2F20053739E /* Reachability.m */,
 				7589307E1E95E2950053739E /* AppDelegate.h */,
 				7589307F1E95E2950053739E /* AppDelegate.m */,
 				758930811E95E2950053739E /* ViewController.h */,
@@ -153,6 +158,7 @@
 			files = (
 				758930831E95E2950053739E /* ViewController.m in Sources */,
 				758930801E95E2950053739E /* AppDelegate.m in Sources */,
+				758930941E95E2F20053739E /* Reachability.m in Sources */,
 				7589307D1E95E2950053739E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
